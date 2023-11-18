@@ -26,8 +26,4 @@ if($operator === "+"){
     echo "Uw resultaat is : " . $getal1 % $getal2;
 }
 
-$klas = ["Sjonnie de Wiel", "Herman Kaal", "Henk de Steen", "Inge Kerkhoven", "Gert Kruiswijk"];
-
-var_dump($klas);
-
 ?>
