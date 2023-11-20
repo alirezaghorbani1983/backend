@@ -25,3 +25,10 @@ article {
 header {
     border-bottom: black solid 4px;
 }
+nav {
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: cornsilk;
+}
