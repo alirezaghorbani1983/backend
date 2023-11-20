@@ -8,6 +8,10 @@ h2 {
     font-size: 28px;
     color: grey;
 }
+ul,
+ol {
+    font-size: 22px;
+}
 div {
-    max-width: 300 px;
+    background-color: lightblue;
 }
