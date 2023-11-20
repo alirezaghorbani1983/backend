@@ -18,3 +18,10 @@ div {
 .mysauce {
     color: tomato;
 }
+article {
+    background-color: khaki;
+}
+
+header {
+    border-bottom: black solid 4px;
+}
