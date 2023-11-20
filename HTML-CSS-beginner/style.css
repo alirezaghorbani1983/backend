@@ -1,7 +1,13 @@
+body {
+    background-color: bisque;
+}
 h1 {
     color: red;
 }
 h2 {
     font-size: 28px;
     color: grey;
+}
+div {
+    max-width: 300 px;
 }
