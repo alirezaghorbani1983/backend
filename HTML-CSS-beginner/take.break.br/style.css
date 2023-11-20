@@ -5,10 +5,16 @@ div {
 
 .green {
     background-color: green;
+    padding: 30px;
+        margin: 30px;
 }
 .blue {
     background-color: blue;
+    padding: 30px;
+        margin: 30px;
 }
 .red {
     background-color: red;
+    padding: 30px;
+        margin: 30px;
 }
