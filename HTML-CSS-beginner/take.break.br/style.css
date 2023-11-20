@@ -18,3 +18,10 @@ div {
     padding: 30px;
         margin: 30px;
 }
+
+footer {
+    background-color: slategray;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
