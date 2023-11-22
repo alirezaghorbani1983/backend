@@ -2,6 +2,6 @@ input {
     display: block;
 }
 
-#name {
-    min-width: 200px;
+.custom-input {
+    min-width: 25
 }
