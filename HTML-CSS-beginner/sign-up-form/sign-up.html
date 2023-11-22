@@ -11,13 +11,18 @@
 <body>
     <h1>Bit Academy Sign UP</h1>
     <form action="#">
-        <div>
-            <label for="name">Wat is jouw naam?</label>
-            <input type="text" id="naam" name="naam" class="custom-input" required>
-        </div>
-        <div>
-            <input type="submit" name="send">
-        </div>
+    <label for="name">Wat is jouw naam?</label>
+        <input type="text" id="naam" name="naam" class="custom-input" placeholder="Daan" required>
+        
+        <label for="eamil">Email</label>
+        <input type="email" id="email" name="email" placeholder="daan@mail.com" required>
+        <label for="tlnumber">Telefoonnummer</label>
+        <input type="tel" id="tlnumber" name="tlnumber" placeholder="061234567">
+        
+        <label for="pincode">Pin code</label>
+        <input type="password" id="pincode" name="pincode" required>
+        
+        <input type="submit" id="submit" value="Submet">
     </form>
 </body>
 
