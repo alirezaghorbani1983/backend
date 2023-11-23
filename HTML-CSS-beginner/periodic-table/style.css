@@ -1,0 +1,31 @@
+table,
+th,
+td {
+    width: 600px;
+    border: 2px black solid;
+    padding: 7px;
+}
+
+.rc1 {
+    background-color: lightyellow;
+}
+
+.leeg {
+    background-color: azure;
+}
+
+.c11 {
+    background-color: orangered;
+}
+
+.c1-other {
+    background-color: pink;
+}
+
+.c2 {
+    background-color: lightskyblue;
+}
+
+.c3-5 {
+    background-color: lime;
+}
