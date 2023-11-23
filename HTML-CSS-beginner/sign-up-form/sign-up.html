@@ -21,8 +21,58 @@
         
         <label for="pincode">Pin code</label>
         <input type="password" id="pincode" name="pincode" required>
+
+        <label for="provincie">Provincie</label>
+        <select name="provincie" id="provincie">
+            <option value="Kies een optie">Kies een optie</option>
+            <option value="Drenthe">Drenthe</option>
+            <option value="Flevoland">Flevoland</option>
+            <option value="Friesland">Friesland</option>
+            <option value="Gelderland">Gelderland</option>
+            <option value="Groningen">Groningen</option>
+            <option value="Limburg">Limburg</option>
+            <option value="Noord Brabant">Noord Brabant</option>
+            <option value="Noord Holland">Noord Holland</option>
+            <option value="Overijssel">Overijssel</option>
+            <option value="Zuid Holland">Zuid Holland</option>
+            <option value="Utrecht">Utrecht</option>
+            <option value="Zeeland">Zeeland</option>
+        </select>
         
-        <input type="submit" id="submit" value="Submet">
+        <p>Hou je van voetbal</p>
+        <label for="voetbalKeuze1">Nee</label>
+        <input type="radio" name="voetbal" value="nee" checked id="voetbalKeuze1">
+        
+        <label for="voetbalKeuze2">Ja</label>
+        <input type="radio" name="voetbal" value="ja" id="voetbalKeuze2">
+        
+        <p>Favoriete dagen in de week</p>
+        <label for="maandag">Maandag</label>
+        <input type="checkbox" name="secret" id="maandag">
+        
+        <label for="dinsdag">Dinsdag</label>
+        <input type="checkbox" name="secret" id="dinsdag">
+        
+        <label for="woensdag">Woensdag</label>
+        <input type="checkbox" name="secret" id="woensdag">
+        
+        <label for="donderdag">Donderdag</label>
+        <input type="checkbox" name="secret" id="donderdag">
+        
+        <label for="vrijdag">Vrijdag</label>
+        <input type="checkbox" name="secret" id="vrijdag">
+        
+        <label for="zaterdag">Zaterdag</label>
+        <input type="checkbox" name="secret" id="zaterdag">
+        
+        <label for="zondag">Zondag</label>
+        <input type="checkbox" name="secret" id="zondag">
+        
+        <label for="comment">Your comment:</label>
+        <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
+
+        
+        <input type="submit" id="submit" value="Submit">
     </form>
 </body>
 
