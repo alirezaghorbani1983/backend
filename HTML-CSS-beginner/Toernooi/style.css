@@ -1,3 +1,8 @@
-table {
-    width: 700px;
+td {
+    border: black solid;
+    padding: 30px;
+}
+
+input {
+    border: unset;
 }
