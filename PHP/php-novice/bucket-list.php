@@ -15,8 +15,11 @@ for ($i = 1; $i <= $aantal; $i++) {
 
 echo "Op jouw bucket list staat: " . PHP_EOL;
 
-foreach ($activiteiten as $activiteit) {
-    echo $activiteit . PHP_EOL;
+// foreach ($activiteiten as $activiteit) {
+//     echo $activiteit . PHP_EOL;
+// }
+for ($i = 0; $i < $aantal; $i++) {
+    echo $activiteiten[$i] . PHP_EOL;
 }
 
 ?>
