@@ -20,8 +20,8 @@ for($i = 1; $i <= $aantal; $i++){
 
 }
 foreach ($bucketlist as $naam => $dromen) {
-    foreach ($dromen as $droom) {
-        echo $naam . " heeft dit als droom: " .$droom . PHP_EOL;
+    foreach($x = $dromen as $droom) {
+        echo $naam . " heeft dit als droom: " . $droom . PHP_EOL;
     }
 }
 
