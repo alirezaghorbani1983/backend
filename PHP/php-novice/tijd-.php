@@ -31,6 +31,5 @@ for($i= 1; $i < count($argv); $i++){
             break;                                      
     }
 }
-
 echo "De totale tijd is " . $total_seconden . " seconden" . PHP_EOL;
 ?>
