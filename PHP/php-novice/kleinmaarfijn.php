@@ -5,7 +5,7 @@ define("CENTS_IN_EURO", 100);
 
 function convertToCents($bedrag)
 {
-    $result = round($bedrag/ 0.05) * 0.05;
+    $result = round($bedrag/ 0.10) * 0.10;
 
     return $result * CENTS_IN_EURO;
 }
